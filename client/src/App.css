@@ -2,11 +2,19 @@
   text-align: center;
 }
 
-.login-cover {
-  background-image: url('./images//RIOcloneCover.jpg');
+.cover-cover {
+  background-image: url('./images//rio2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 100vmax rgba(1, 1, 2, 0.945);
+  box-shadow: inset 0 0 0 100vmax rgba(1, 1, 2, 0.877);
+}
+
+
+.login-cover {
+  background-image: url('./images//rio1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 100vmax rgba(1, 1, 2, 0.877);
 }
 
 .App-logo {
