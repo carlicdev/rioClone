@@ -12,7 +12,7 @@ const videos = [
         title: 'On Raising',
         id: 2,
         size: 25,
-        plan: 'pro',
+        plan: 'essencial',
         by: 'jaacsin',
         game: 'nlhe',
         date: '22/10/2020'
