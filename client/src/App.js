@@ -7,6 +7,7 @@ import Signup from './components/Signup/Signup';
 import VideosList from './components/Videos/VideosList';
 import Roster from './components/Roster/Roster';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/videos' component={VideosList} />
         <Route exact path='/roster' component={Roster} />
       </Switch>
+      <Footer />
     </div>
   );
 }
