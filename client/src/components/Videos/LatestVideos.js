@@ -38,7 +38,7 @@ const LatestVideos = () => {
                     <div className='text-gray-300 mb-2'>Explore and enjoy the Run It Once poker video library.</div>
                     <div className='text-gray-300'>Watch your game take off.</div>
                     <Link to='/roster'>
-                        <button className='bg-teal-600 text-gray-100 px-4 pt-1 pb-2 focus:outline-none mt-5 shadow rounded hover:bg-teal-700'>
+                        <button className='bg-teal-600 text-gray-100 px-4 pt-1 pb-2 focus:outline-none mt-5 shadow rounded hover:bg-teal-700 border-b-2 border-teal-700'>
                             Conoce a los Pros
                         </button>
                     </Link>

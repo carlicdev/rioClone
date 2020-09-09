@@ -16,7 +16,7 @@ const Signup = () => {
                 <div className='text-gray-700 text-xl'>Planes que se ajustan a tus necesidades</div>
             </div>
             <div className='flex flex-wrap justify-center xl:max-w-1/3 p-5'>
-                <Card title='Esencial' subtitle='Get a free taste' price='GRATIS' bg='white' text='gray-900'/>
+                <Card title='Esencial' subtitle='Get a free taste' price={0} bg='white' text='gray-900'/>
                 <Card title='Elite' subtitle='Get a free taste' price={800} bg='black' text='gray-100'/>
                 <Card title='Pro' subtitle='Get a free taste' price={450} bg='gray-900' text='gray-100'/>
             </div>

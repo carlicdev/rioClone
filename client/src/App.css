@@ -17,6 +17,13 @@
   box-shadow: inset 0 0 0 100vmax rgba(1, 1, 2, 0.877);
 }
 
+.footer {
+  background-image: url('./images//rio2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.931);
+}
+
 .modal {
   background-color: rgba(0, 0, 0, 0.7) ;
 }

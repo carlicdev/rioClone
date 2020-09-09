@@ -4,12 +4,12 @@ import { FaCheckCircle } from 'react-icons/fa';
 const Card = (props) => {
     const { title, subtitle, price, bg, text} = props;
     return (
-        <div className='lg:w-1/3 md:w-1/2 w-full'>
+        <div className='lg:w-1/3 md:w-1/2 w-full transform  hover:scale-110 hover:shadow'>
             <div className={`max-w-sm p-5 bg-${bg} text-${text} border border-gray-500 mx-auto`}>
                 <div className='text-center text-2xl font-bold'>{title.toUpperCase()}</div>
                 <div className='text-center text-md mb-5'>{subtitle}</div>
                 <hr/>
-                <div className='text-center mt-5 text-5xl '>{price > 0 ? '$' : null}{price + '.00'}</div>
+                <div className='text-center mt-5 text-5xl '>${price}<span className='text-lg'>.00</span></div>
                 <div className='text-center text-sm font-semibold '>/MES</div>
                 <div className='container text-justify text-sm  p-10'>
                      <div className=''><span><FaCheckCircle className='inline text-green-700 mb-1'/></span> Unlimited Forum Access</div>
