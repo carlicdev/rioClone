@@ -4,6 +4,7 @@ import Filters from '../Filters/Filters';
 import VideoListItem from './VideoListItem';
 
 import data from '../../data/videos';
+import LatestVideos from './LatestVideos';
 
 const VideosList = () => {
     const [videos, setVideos] = useState(data);
@@ -39,7 +40,7 @@ const VideosList = () => {
     
     return (
         <div>
-            <Navbar />
+            <LatestVideos />
             <div className='container w-full mx-auto p-10'>
                 <Filters filterBy={filterBy}/>
                 <div className='shadow-md mt-5'>

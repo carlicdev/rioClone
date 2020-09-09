@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Navbar from '../Navbar/Navbar'
 import Cover from './Cover';
 import Modal from '../Modal/Modal';
 import Section from './Section'
@@ -10,7 +9,6 @@ const Home = () => {
     return (
         <div>
             <div className='cover-cover h-screen'>
-                <Navbar />
                 <Cover handleModal={() => setHandleModal(!handleModal)} />
                 <Modal handleModal={handleModal} />
             </div>

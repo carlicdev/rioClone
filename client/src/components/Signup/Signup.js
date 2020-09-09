@@ -1,11 +1,9 @@
-import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Card from './Card'
+import React from 'react';
+import Card from './Card';
 
 const Signup = () => {
     return (
         <div>
-            <Navbar />
             <div className='flex justify-center pb-2'>
                 <ul>
                     <li className='inline font-semibold text-grey-800 mr-5'>1. Planes</li>
