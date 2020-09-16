@@ -10,8 +10,8 @@ const LatestVideos = () => {
                     <div className='text-gray-600 font-semibold'>Últimos Videos:</div>
                     <div className='p-5'>
                         <div className='bg-gray-700 flex max-w-lg mx-auto shadow'>
-                            <img src={require('../../images/player1.png')} alt='player' className='w-1/3' />
-                            <div className='w-2/3 text-justify p-5'>
+                            <img src={require('../../images/pippen2.png')} alt='player' className='w-1/3 h-48' />
+                            <div className='w-2/3 text-justify p-4'>
                                 <div className='text-lg text-white font-semibold'>Badugi: High Stakes SCOOP Final Table</div>
                                 <div className='text-xs text-gray-300'>51 min</div>
                                 <div className='text-xs text-gray-300 mt-3 mb-5'>Heard the request for more badugi content and obligues with...</div>
@@ -19,8 +19,8 @@ const LatestVideos = () => {
                             </div>
                         </div>
                         <div className='bg-gray-700 flex max-w-lg mx-auto mt-5 shadow'>
-                            <img src={require('../../images/player1.png')} alt='player' className='w-1/3' />
-                            <div className='w-2/3 text-justify p-5'>
+                            <img src={require('../../images/jaacsin2.png')} alt='player' className='w-1/3 h-48' />
+                            <div className='w-2/3 text-justify p-4'>
                                 <div className='text-lg text-white font-semibold'>Badugi: High Stakes SCOOP Final Table</div>
                                 <div className='text-xs text-gray-300'>51 min</div>
                                 <div className='text-xs text-gray-300 mt-3 mb-5'>Heard the request for more badugi content and obligues with...</div>

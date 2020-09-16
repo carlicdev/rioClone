@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GiHamburgerMenu } from 'react-icons/gi'
+import { GiHamburgerMenu , GiSpades } from 'react-icons/gi'
 
 const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ const Navbar = () => {
                 </button>
                 <div className='text-xl text-gray-100 mr-1 ml-1 inline'>
                     <Link to='/'>
-                    ACESPlus
+                        <GiSpades className='inline' />
                     </Link>
                 </div>
             </div>
@@ -22,7 +22,11 @@ const Navbar = () => {
                     <li className='text-sm text-gray-400 font-thin mx-2 italic inline'>Pro Videos</li>
                 </Link>
                 <li className='text-sm text-gray-400 font-thin mx-2 italic inline'>Courses</li>
-                <li className='text-sm text-gray-400 font-thin mx-2 italic inline'>Roster</li>
+                <li className='text-sm text-gray-400 font-thin mx-2 italic inline'>
+                    <Link to='/roster'>
+                        Roster
+                    </Link>
+                </li>
                 </ul>
             </div>
             <div className='hidden lg:inline ml-2 mr-auto px-4'>
@@ -36,7 +40,7 @@ const Navbar = () => {
                     <div className='text-sm font-semibold text-gray-400 mx-3 inline' >LOG IN</div>
                 </Link>
                 <Link to='/signup'>
-                    <button className='rounded-full text-sm text-white bg-red-700 py-1 mx-3 px-4 font-medium focus:outline-none'>SIGN UP FREE</button>
+                    <button className='rounded-full text-sm text-white bg-red-700 py-1 mx-3 px-4 font-medium focus:outline-none'>REGISTRO GRATIS</button>
                 </Link>
             </div>
         </div>

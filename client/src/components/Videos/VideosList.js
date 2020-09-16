@@ -1,5 +1,4 @@
 import React, { useState, useCallback } from 'react'
-import Navbar from '../Navbar/Navbar';
 import Filters from '../Filters/Filters';
 import VideoListItem from './VideoListItem';
 

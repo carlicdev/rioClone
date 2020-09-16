@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionTwo = () => {
     return (
-        <div className='container w-full bg-black p-10 mx-auto'>
+        <div className='w-full bg-black p-10 mx-auto'>
             <div className='max-w-md mx-auto'>
                 <div className='text-4xl text-gray-100 mb-5'>An Expansive Library</div>
                 <hr/>
